@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-box {
+  width: 500px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input-box:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+.recipe-container {
+  width: 500px;
+  max-height: 350px;
+  margin: 8px auto 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.recipe-list {
+  display: block;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 15px;
+  border-bottom: 1px solid #f1f1f1;
+  transition: background 0.2s ease;
+}
+
+.recipe-list:last-child {
+  border-bottom: none;
+}
+
+.recipe-list:hover {
+  background-color: #f7f9fc;
+  color: #007bff;
+}
